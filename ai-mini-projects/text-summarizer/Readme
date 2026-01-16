@@ -1,0 +1,1 @@
+I built a GenAI summarizer using Hugging Face Transformers, handled a PyTorch CVE by bypassing pipeline() and loading models securely via SafeTensors, and packaged it as a reusable mini-project on GitHub.
