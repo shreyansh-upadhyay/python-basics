@@ -1,1 +1,25 @@
 I built a GenAI summarizer using Hugging Face Transformers, handled a PyTorch CVE by bypassing pipeline() and loading models securely via SafeTensors, and packaged it as a reusable mini-project on GitHub.
+
+# GenAI Text Summarizer (Secure)
+
+This project demonstrates a GenAI-based text summarizer built using
+Hugging Face Transformers.
+
+## Key Highlights
+- Uses a pre-trained seq2seq model (distilBART)
+- Explicit SafeTensors loading
+- Avoids `torch.load` due to CVE-2025-32434
+- Designed for enterprise-safe environments
+
+## Use Cases
+- Jira ticket summaries
+- Incident postmortem summaries
+- Program update condensation
+- Release notes drafts
+
+## Tech Stack
+- Python 3.10
+- PyTorch (CPU)
+- Hugging Face Transformers
+- SafeTensors
+
